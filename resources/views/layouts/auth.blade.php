@@ -17,31 +17,6 @@
     <link rel="stylesheet" href="{{asset('/assets/css/core.css')}}">
     @section('extra-styles')
     @show()
-    <style>
-    form .error {
-        color: #ff0000;
-    }
-
-    #is_agreed-error {
-        float: left;
-        width: 100%;
-    }
-    .alert{
-        display:none;
-        padding: 10px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .alert.alert-success {
-        border-left: 5px #1ece1e solid;
-        background: azure;
-    }
-    .alert.alert-danger{
-        background:#ec8181;
-        border-left: 5px solid #df0000;
-        color: #fff;
-    }
-</style>
 </head>
 <body>
 
